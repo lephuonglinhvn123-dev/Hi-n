@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuyển dụng - Hiên</title>
+
+    <!-- font-awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img src="hi195170n-logo.svg" class="logo"alt=""/></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="./homepage.html">Trang chủ</a></li>
+          <li><a href="about.html">Về Hiên</a></li>
+          <li><a href="shop.html">Sản phẩm</a></li>
+          <li><a href="blog.html">Tin tức</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a class="active" href="career.html">Tuyển dụng</a></li>
+          <li><a href="Register.html">Đăng ký</a></li>
+          <li id="lg-bag">
+            <a href="./shoppingcart.html"
+              ><i class="far fa-shopping-bag"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="aboutcareer-header">
+      <h2>#Tuyển dụng</h2>
+      <p>Nến thơm được tạo bởi những con người hoàn hảo nhất</p>
+    </section>
+
+    <br />
+
+    <div class="navbar1">
+      <a href="#career">TUYỂN DỤNG</a>
+    </div>
+
+    <div id="main">
+      <div class="">
+        <div id="career" class="carrer">
+          <div class="carrer-store">
+            <div class="image-section">
+              <img
+                src="./images/9.career/career2.jpg"
+                alt="Team Image"
+                class="team-image"
+              />
+            </div>
+            <div class="job-section">
+              <h2>Khối cửa hàng</h2>
+              <ul>
+                <li>Nhân viên tư vấn</li>
+                <li>Nhân viên thu ngân</li>
+              </ul>
+              <button onclick="handleCareerStore()" class="view-all-btn">
+                Xem tất cả công việc khối cửa hàng
+              </button>
+            </div>
+          </div>
+          <div class="carrer-office">
+            <div class="image-section">
+              <img src="./images/9.career/career1.jpg" alt="Team Image" class="team-image"/>
+            </div>
+            <div class="job-section">
+              <h2>Khối văn phòng</h2>
+              <ul>
+                <li>Nhân viên kho</li>
+                <li>Thực tập sinh</li>
+                <li>Nhân viên marketing</li>
+              </ul>
+              <button onclick="handleCareerOffice()" class="view-all-btn">
+                Xem tất cả công việc khối cửa hàng
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Nhận Newsletter từ chúng tôi</h4>
+        <p>
+          Cập nhật những thông tin mới nhất về Hiên và<span> ưu đãi độc quyền.</span
+          >
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Nhập email" />
+        <button class="normal">Đăng kí</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="hi195170n-logo.svg"alt=""/>
+        <h4>Liên hệ chúng tôi</h4>
+        <p>
+          <strong>Địa chỉ:</strong> 207 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà
+          Nội
+        </p>
+        <p><strong>Điện thoại:</strong> 0975166745</p>
+        <p><strong>Mail:</strong> hien.theproject@gmail.com</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

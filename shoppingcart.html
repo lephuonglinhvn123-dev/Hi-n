@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giỏ hàng - Hiên</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img src="hi195170n-logo.svg" class="logo" alt=""/></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="./homepage.html">Trang chủ</a></li>
+          <li><a href="about.html">Về Hiên</a></li>
+          <li><a href="shop.html">Sản phẩm</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="FAQs.html">FAQs</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="career.html">Tuyển dụng</a></li>
+          <li><a href="Register.html">Đăng ký</a></li>
+          <li id="lg-bag">
+            <a class="active" href="#"><i class="far fa-shopping-bag"></i></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <div class="cart-container">
+      <h1>GIỎ HÀNG</h1>
+      <div class="cart-content">
+        <!-- Cột Sản phẩm -->
+        <div class="cart-items">
+          <div class="cart-header">
+            <span class="column-title">SẢN PHẨM</span>
+            <span class="column-title">GIÁ</span>
+            <span class="column-title">SỐ LƯỢNG</span>
+            <span class="column-title">TẠM TÍNH</span>
+          </div>
+          <!-- Các mục giỏ hàng sẽ được thêm động từ JavaScript -->
+        </div>
+
+        <!-- Cột Thanh toán -->
+        <div class="cart-summary">
+          <h2>CỘNG GIỎ HÀNG</h2>
+          <hr />
+          <p>Tạm tính: <span id="subtotal">0 VND</span></p>
+          <p>Giao hàng: Giao từ cửa hàng (sẽ liên hệ để báo phí ship)</p>
+          <p>Tổng: <span id="total">0 VND</span></p>
+          <button class="checkout-btn">Tiến Hành Thanh Toán</button>
+          <div class="discount-section">
+            <label for="discount-code">Phiếu ưu đãi</label>
+            <input type="text" id="discount-code" placeholder="Mã ưu đãi" />
+            <br /><br />
+            <button class="apply-btn">Áp dụng</button>
+          </div>
+          <button
+            class="continue-btn"
+            onclick="window.location.href='shop.html'"
+          >
+            ← Tiếp Tục Xem Sản Phẩm
+          </button>
+          <button class="update-cart-btn">Cập Nhật Giỏ Hàng</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Nhận Newsletter từ chúng tôi</h4>
+        <p>
+          Cập nhật những thông tin mới nhất về Là Việt và<span>
+            ưu đãi độc quyền.</span
+          >
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Nhập email" />
+        <button class="normal">Đăng kí</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+          <img class="logo" src="hi195170n-logo.svg" alt="">
+          <h4>Liên hệ chúng tôi</h4>
+          <p><strong>Địa chỉ:</strong> 207 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội</p>
+          <p><strong>Điện thoại:</strong> 0975166745</p>
+          <p><strong>Mail:</strong> hien.theproject@gmail.com</p>
+          <div class="follow">
+              <h4>Follow us</h4>
+              <div class="icon">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-pinterest-p"></i>
+                  <i class="fab fa-youtube"></i>
+              </div>
+          </div>
+      </div>
+  </footer> 
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sảm phẩm - Hiên</title>
+    
+
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="hi195170n-logo.svg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="./homepage.html">Trang chủ</a></li>
+                <li><a href="about.html">Về Hiên</a></li>
+                <li><a class="active" href="shop.html">Sản phẩm</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+                <li><a href="career.html">Tuyển dụng</a></li>
+                <li><a href="Register.html">Đăng ký</a></li>
+                <li id="lg-bag"><a href="./shoppingcart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>Sản phẩm</h2>
+        <p>Mang lại cảm giác ấm - yên - lành như ở nhà</p>
+    </section>
+
+    <br>
+    <br>
+
+    <div class="navbar1">
+        <a href="./shop.html">Nến của Hiên</a>
+        <a href="./wholebean.html">Quà tặng từ Hiên</a>
+    </div> 
+      
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="./images/3.product/gift box.jpg" alt="">
+                <div class="des">
+                    <span>Món quà từ Hiên</span>
+                    <h5>Gift box</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>45.000 VND</h4>
+                </div>
+                <a href="./shoppingcart.html" onclick="addToCart('Gift box', 45000); event.preventDefault();"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+         
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Nhận thông tin mới nhất từ Hiên</h4>
+            <p>Cập nhật những thông tin mới nhất về Hiên và<span> ưu đãi có 1-0-2.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Nhập email">
+            <button class="normal">Đăng kí</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="hi195170n-logo.svg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Ba Đình, Hà Nội</p>
+            <p><strong>Phone:</strong> 0866845558</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Lành' - Hiên</title>
+
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="hi195170n-logo.svg" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="./homepage.html">Trang chủ</a></li>
+                <li><a href="about.html">Về Hiên</a></li>
+                <li><a class="active" href="shop.html">Sản phẩm</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+                <li><a href="career.html">Tuyển dụng</a></li>
+                <li><a href="Register.html">Đăng ký</a></li>
+                <li id="lg-bag"><a href="./shoppingcart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    </section>
+
+    <section id="productdetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="./images/4.detail/lanh_detail1.jpg" width="100%" id="MainImg" alt="">
+            <div class="small-image-group">
+                <div class="small-img-col">
+                    <img src="./images/4.detail/lanh_detail2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="./images/4.detail/lanh_detail3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="./images/4.detail/lanh_detail4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Cookies & Cream</h6>
+            <h4>Lành</h4>
+            <h2>39.000 VND</h2>
+            <button class="normal" id="addToCartButton" onclick="addToCart('Lành', 39000); event.preventDefault();">Thêm vào giỏ hàng</button>
+            <script>
+                document.getElementById('addToCartButton').addEventListener('click', function() {
+                    window.location.href = 'shoppingcart.html';
+                });
+            </script>
+            
+            <br>
+            <br>
+            <h3>Thông tin sản phẩm</h3>
+            <p>Hương cookie & cream ngọt ngào, béo nhẹ, như mùi thơm từ chiếc bánh mới nướng – thân thuộc và dễ chịu.
+                Mang lại cảm giác an lành, dịu dàng, giúp bạn thư giãn, cảm thấy được vỗ về sau một ngày dài.</p>
+            <p>Quy Cách đóng gói: Hộp gồm nến 200g (vỏ màu hồng+xanh)</p>
+            
+            <div class="customer-feedback">
+                <h3>Review từ khách hàng</h3>
+
+                <br>
+            
+                <div class="callout">
+                    <img src="./images/4.detail/HURRYKNG.png" alt="" class="avatar">
+                    <div class="comment-text">
+                        <strong>HURRYKNG</strong>
+                        <p>Hương thơm của nến Hiên khiến mình cảm thấy dễ chịu và thu thái</p>
+                    </div>
+                </div>
+            
+                <div class="callout">
+                    <img src="./images/4.detail/KEM.jpg" alt="" class="avatar">
+                    <div class="comment-text">
+                        <strong>KEM</strong>
+                        <p>Siêu tiện luôn. Từ lúc mua là healing tại nhà, khỏi lo ra ngoài</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    
+    <div class="container">
+        <h5>THÔNG TIN SẢN PHẨM</h5>
+            <ul>
+                <li>Thương hiệu: Hiên</li>
+                <li>Sản xuất tại: Việt Nam</li>
+                <li>Đóng gói: Hộp ngoài và bộ nến 200g</li>
+                <li>Hướng dẫn sử dụng và bảo quản: xem trên bao bì</li>
+                <li>Hạn sử dụng: 3 tháng kể từ NSX</li>
+            </ul>
+
+        <br>
+
+        <h5>MÔ TẢ CHI TIẾT</h5>
+            <ul>
+                <li>Lọ thủy tinh trong suốt</li>
+                <li>Mùi hương thiên nhiên; sáp thơm (sáp đậu nành + sáp ong)</li>
+                <li>Kích thước: cao 6cm - rộng 5cm; nặng 200g</li>
+                <li>Thời gian đốt cháy liên tục: 12h</li>
+            </ul>
+        
+        <br>
+
+        <h5>HƯỚNG DẪN SỬ DỤNG</h5>
+            <ul>
+                <li>Sử dụng trong phòng có phạm vi 25m2 trở lại, nên dùng trong phòng kín để có trải nghiệm tốt nhất</li>
+                <li>Thời gian sử dụng: 12 tiếng kể từ khi đốt nến</li>
+            </ul>
+    </div>
+
+
+    <section id="product1" class="section-p1">
+        <h2>Sản phẩm tương tự</h2>
+        <p>Nến của Hiên</p>
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='./am.html'">
+                <img src="./images/3.product/Ấm.jpg" alt="">
+                <div class="des">
+                    <span>Citrus & Coconut</span>
+                    <h5>Ấm</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>39.000 VND</h4>
+                </div>
+                <a href="./shoppingcart.html" onclick="addToCart('Ấm', 39000); event.preventDefault();"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            
+            <div class="pro" onclick="window.location.href='./yen.html'">
+                <img src="./images/3.product/yen.jpg" alt="">
+                <div class="des">
+                    <span>French Pear</span>
+                    <h5>Yên</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>39.000 VND</h4>
+                </div>
+                <a href="./shoppingcart.html" onclick="addToCart('Yên', 39000); event.preventDefault();"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            
+            <div class="pro" onclick="window.location.href='./lanh.html'">
+                <img src="./images/3.product/lanh.jpg" alt="">
+                <div class="des">
+                    <span>Cookies & Cream</span>
+                    <h5>Lành</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>39.000 VND</h4>
+                </div>
+                <a href="./shoppingcart.html" onclick="addToCart('Lành', 39000); event.preventDefault();"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro" onclick="window.location.href='./limited.html'">
+                <img src="./images/3.product/limited edition.jpg" alt="">
+                <div class="des">
+                    <span>Waterlemon & Lemonade</span>
+                    <h5>Limited Edition</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>45.000 VND</h4>
+                </div>
+                <a href="./shoppingcart.html" onclick="addToCart('Limited Edition', 45000); event.preventDefault();"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Nhận thông tin mới nhất từ Hiên</h4>
+            <p>Cập nhật những thông tin mới nhất về Hiên và<span> ưu đãi có 1-0-2.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Đăng ký</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="hi195170n-logo.svg" alt="">
+            <h4>Liên hệ chúng tôi</h4>
+            <p><strong>Địa chỉ:</strong> 207 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội</p>
+            <p><strong>Điện thoại:</strong> 0975166745</p>
+            <p><strong>Mail:</strong> hien.theproject@gmail.com</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+    <!-- javascript script file code -->
+    <script>
+        var mainImg = document.getElementById("MainImg");
+        var smallImg = document.getElementsByClassName("small-img");
+        smallImg[0].onclick = function() {
+            mainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            mainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            mainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function () {
+            mainImg.src = smallImg[3].src;
+        }
+    </script>
+
+    <!-- javascript script file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
